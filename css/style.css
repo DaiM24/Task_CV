@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.encabezado {
+    padding: 10px;
+    background-image: url(../assets/background-triangulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-encabezado {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    border: 2px solid rgb(240, 212, 137);
+    border-radius: 50%;
+    
+}
+.encabezado h1, .encabezado p {
+    text-align: center;
+}
+nav {
+    background-color: rgb(152, 229, 229);
+    padding: 20px;
+    text-align: center;
+}
+nav span {
+    padding: 10px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+main {
+    margin: 0px 15px 15px 15px;
+}
+ul {
+    list-style-type: square;
+  }
+
