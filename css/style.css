@@ -46,4 +46,16 @@ main {
 ul {
     list-style-type: square;
   }
-
+.container-flex-1 {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.education, .proyects {
+    width: 100%;
+}
+.title {
+    text-align: center;
+}
+.hard-skills, .soft-skills {
+    width: 100%;
+}

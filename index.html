@@ -14,13 +14,13 @@
         <p>Profesión</p>
     </header>
     <nav>
-        <span>Localidad</span>
-        <a href="#">dayml.0916@gmail.com</a>
-        <a href="#">Red Social</a>
+        <i class="fa-solid fa-location-dot"></i><span>Localidad</span>
+        <i class="fa-solid fa-envelope"></i><a href="#">dayml.0916@gmail.com</a>
+        <i class="fa-brands fa-linkedin"></i><a href="#">LinkedIn</a>
     </nav>
     <main>
-        <section>
-            <h2>ABOUT ME</h2>
+        <div class="about-me">
+            <h2>Abou me</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut magni, assumenda doloremque impedit quae, repellendus
                 recusandae sequi quo quibusdam voluptas, sed nesciunt! Neque corrupti nulla illum minus ipsum, sunt a? Lorem ipsum
                 dolor sit amet consectetur adipisicing elit. Officiis vero laborum beatae a natus ipsum quam facilis tempore ad
@@ -28,65 +28,108 @@
                 inventore, adipisci at atque hic debitis. Eligendi quidem quasi iste? Culpa voluptatibus consectetur nostrum. Ex
                 illum, iusto facere molestias repellat sint sunt. Doloremque recusandae nobis veniam reprehenderit harum! Illo?
             </p>
-        </section>
-        <hr>
-        <section>
-            <h2>PROYECTS</h2>
-            <div>
-               <h4>Nombre sel proyecto</h4>
-               <span>Fecha</span>
-               <ul>
-                <li>¿Qué hace tu proyecto?</li>
-                <li>¿Qué hace tu proyecto?</li>
-                <li>¿Qué hace tu proyecto?</li>
-               </ul>
+        </div>
+        
+        <div class="container-flex-1">
+            <div class="information">
+                <h2 class="title">Personal Information</h2>
+                <div>
+                    <ul>
+                        <li>Age: 25</li>
+                        <li>Nacionality: Argentinian</li>
+                        <li>Adress: CABA</li>
+                        <li>Phone: 11-2211-7788</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h4>Nombre sel proyecto</h4>
-                <span>Fecha</span>
+        </div>
+        
+        <div class="container-flex-1">
+            <div class="education">
+                <h2 class="title">EDUCATION</h2>
+                <div>
+                    <h4>Scuendario completo</h4>
+                    <p>Nombre del colegio secundario</p>
+                    <span>Fecha que te egresaste</span>
+                </div>
+                <div>
+                    <h4>Título de algun curso que hiciste</h4>
+                    <p>Empresa/persona que dicto ese curso</p>
+                    <span>Fecha</span>
+                </div>
+            </div>
+        
+            <div class="proyects">
+                <h2 class="title">PROYECTS</h2>
+                <div>
+                    <h4>Project's name</h4><span>Date</span>
+                    <ul>
+                        <li>¿Qué hace tu proyecto?</li>
+                        <li>¿Qué hace tu proyecto?</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Project's name</h4><span>Date</span>
+                    <ul>
+                        <li>¿Qué hace tu proyecto?</li>
+                        <li>¿Qué hace tu proyecto?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-flex-1">
+            <div class="soft-skills">
+                <h2 class="title">SOFT SKILLS</h2>
                 <ul>
-                 <li>¿Qué hace tu proyecto?</li>
-                 <li>¿Qué hace tu proyecto?</li>
-                 <li>¿Qué hace tu proyecto?</li>
+                    <li>
+                        <label for="file">Team work:</label>
+                        <progress id="file" max="100" value="80">80%</progress>
+                    </li>
+                    <li>
+                        <label for="file">Curios:</label>
+                        <progress id="file" max="100" value="70">70%</progress>
+                    </li>
+                    <li>
+                        <label for="file">Leader:</label>
+                        <progress id="file" max="100" value="80">80%</progress>
+                    </li>
+                    <li>
+                        <label for="file">Lorem:</label>
+                        <progress id="file" max="100" value="50">50%</progress>
+                    </li>
                 </ul>
-             </div>
-        </section>
-        <hr>
-        <section>
-            <h2>HARD SKILLS</h2>
-            <ul>
-                <li>
-                   <label for="file">HTML:</label>
-                   <progress id="file" max="100" value="80">80%</progress>
-                </li>
-                <li>
-                    <label for="file">CSS:</label>
-                    <progress id="file" max="100" value="70">70%</progress>
-                 </li>
-                 <li>
-                    <label for="file">BOOTSTRAP:</label>
-                    <progress id="file" max="100" value="80">80%</progress>
-                 </li>
-                 <li>
-                    <label for="file">JAVASCRIPT:</label>
-                    <progress id="file" max="100" value="50">50%</progress>
-                 </li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <h2>EDUCATION</h2>
-            <div>
-                <h4>Scuendario completo</h4>
-                <p>Nombre del colegio secundario</p>
-                <span>Fecha que te egresaste</span>
             </div>
-            <div>
-                <h4>Título de algun curso que hiciste</h4>
-                <p>Empresa/persona que dicto ese curso</p>
-                <span>Fecha</span>
+
+            <div class="hard-skills">
+                <h2 class="title">HARD SKILLS</h2>
+                <ul>
+                    <li>
+                        <label for="file">HTML:</label>
+                        <progress id="file" max="100" value="80">80%</progress>
+                    </li>
+                    <li>
+                        <label for="file">CSS:</label>
+                        <progress id="file" max="100" value="70">70%</progress>
+                    </li>
+                    <li>
+                        <label for="file">BOOTSTRAP:</label>
+                        <progress id="file" max="100" value="80">80%</progress>
+                    </li>
+                    <li>
+                        <label for="file">JAVASCRIPT:</label>
+                        <progress id="file" max="100" value="50">50%</progress>
+                    </li>
+                </ul>
             </div>
-        </section>
+        </div>
+        <div class="contact-me">
+            <h2 class="title">CONTACT ME</h>
+        </div>
+
+    
     </main>
+
+    <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
 </body>
 </html>
