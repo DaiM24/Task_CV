@@ -4,46 +4,72 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-.encabezado {
+.header-cv {
     padding: 10px;
     background-image: url(../assets/background-triangulo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#img-encabezado {
+.img-header {
     width: 150px;
     height: 150px;
     margin: auto;
     display: block;
     border: 2px solid rgb(240, 212, 137);
     border-radius: 50%;
-    
 }
-.encabezado h1, .encabezado p {
+.header-cv h1, .header-cv p {
     text-align: center;
 }
 nav {
+    display:flex;
+    justify-content: space-evenly;
     background-color: rgb(152, 229, 229);
     padding: 20px;
     text-align: center;
 }
-nav span {
-    padding: 10px;
-}
-nav a {
-    padding: 10px;
+nav > div > a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-a:hover {
+.link-hover > a:hover{
+    padding: 10px;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
 }
-main {
-    margin: 0px 15px 15px 15px;
+.about-me {
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: black;
+    border-top: 2px solid white;
 }
-ul {
+
+.container-flex-1 {
+    display: flex;
+}
+.information-row {
+    width: 40%;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: 2px solid white ;
+}
+.education {
+    width: 60%;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-top: 2px solid white ;
+    border-bottom: 2px solid white ;
+}
+
+
+
+
+
+
+/*ul {
     list-style-type: square;
   }
 .container-flex-1 {
@@ -58,4 +84,4 @@ ul {
 }
 .hard-skills, .soft-skills {
     width: 100%;
-}
+}*/
